@@ -1,45 +1,58 @@
-/* Custom styles for the navbar */
+/* Custom styles for websites */
 .navbar {
-    background-color: #343a40 !important; /* Dark background */
+    background-color: #ff5101 !important; 
+    padding-top:9px;
+    padding-bottom: 9px;
+    
+}
+.navbar-fixed-top {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+.info-bar{
+    display: block;
+    z-index:1;
 }
 
 .navbar-brand {
-    color: #ff5733 !important; /* Custom brand color */
-    font-weight: bold; /* Bold font */
+    color: #ff5733 !important; 
+    font-weight: bold; 
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff !important; /* White link color */
+    color: #ffffff !important; 
 }
 
 .navbar-nav .nav-link.active {
-    color: #ff5733 !important; /* Active link color */
+    color: #ff5733 !important; 
 }
 
 .navbar-nav .dropdown-menu {
-    background-color: #343a40 !important; /* Dark background for dropdown */
+    background-color: #343a40 !important; 
 }
 
 .navbar-nav .dropdown-item {
-    color: #ffffff !important; /* White dropdown item color */
+    color: #ffffff !important; 
 }
 
 .navbar-nav .dropdown-item:hover {
-    background-color: #ff5733 !important; /* Hover effect for dropdown items */
+    background-color: #ff5733 !important; 
     color: #ffffff !important;
 }
 
 .btn-outline-success {
-    border-color: #ff5733 !important; /* Custom border color for the button */
-    color: #ff5733 !important; /* Custom text color for the button */
+    border-color: #ff5733 !important; 
+    color: #ff5733 !important;
 }
 
 .btn-outline-success:hover {
-    background-color: #ff5733 !important; /* Hover background color for the button */
-    color: #ffffff !important; /* Hover text color for the button */
+    background-color: #ff5733 !important; 
+    color: #ffffff !important; 
 }
 .navbar-nav .nav-link.active {
-    color: blue !important; /* Custom color for Home link */
+    color: blue !important; 
 }
 .d-flex{
     position: relative;
@@ -55,18 +68,102 @@
 .d-flex input{
    width:600px;
 }
+.row1 .col-md-3{
+    background:linear-gradient(45deg,rgb(182, 122, 114),red);
+    padding-left: 0;
+    padding-right: 0;
+   
+}
 .category-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #f3eded;
     width:60%;
-    padding:0;
-    margin:0;
+    text-align: center; 
 }
 .category-card img{
     max-width:100%;
     height:auto;
     max-height: 100px;
 
+}
+.sale-item{
+    display: flex;
+    flex-direction: column;
+    background: #f3eded;
+    width:60%;
+    
+    padding:20px;
+    
+}
+.sale-item img{
+    max-width:100%;
+    height:auto;
+    max-height: 140px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-title {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-price {
+    margin: 10px 0;
+}
+
+.updated-price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.old-price {
+    margin-left: 10px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.discount {
+    margin-left: 10px;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-rating {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product-rating .grey-star {
+    color: grey;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    font-weight: bolder;
 }
