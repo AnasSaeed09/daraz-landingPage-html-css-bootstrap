@@ -9,7 +9,15 @@
 </head>
 <body>
     <!-- Navbar with full-width -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
+        <div class="info-bar text-center">
+            <a href="#">Become a Seller</a>
+            <a href="#">Daraz Affiliate Program</a>
+            <a href="#">Help & Support</a>
+            <a href="#">Daraz Logistics Partner</a>
+            <a href="#">Save More on App</a>
+        </div>
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <div class="navbar-nav">
@@ -89,7 +97,7 @@
         <div class="row mt-5">
             <div class="col-12">
                 <h2>Categories</h2>
-                <div class="row">
+                <div class="row row1">
                     <div class="col-md-3 mb-4">
                         <div class="category-card">
                             <img src="https://static-01.daraz.pk/p/1ce9b41fc66807f5621173cf03910354.jpg" alt="Category 1">
@@ -114,6 +122,30 @@
                             <div class="category-title">Space Savers</div>
                         </div>
                     </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="category-card">
+                            <img src="https://static-01.daraz.pk/p/228a38a2ade6b13e5635ffc5b82de185.jpg" alt="Category 5">
+                            <div class="category-title">Business</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="category-card">
+                            <img src="https://static-01.daraz.pk/p/f33ce6c727f14e9ce51c89c6d9cd669d.jpg" alt="Category 6">
+                            <div class="category-title">Art Easels</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="category-card">
+                            <img src="https://static-01.daraz.pk/p/a5cdbb698fb93e51dd1590b35b65c6d8.jpg" alt="Category 7">
+                            <div class="category-title">Door, hardwares</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="category-card">
+                            <img src="https://static-01.daraz.pk/p/256c2e75e0b4eb0d20531ccc2e9ccf6a.jpg" alt="Category 8">
+                            <div class="category-title">Smart Watches</div>
+                        </div>
+                    </div>
                     <!-- Add more categories as needed -->
                 </div>
             </div>
@@ -124,20 +156,48 @@
             <div class="col-12">
                 <h2>Flash Sale</h2>
                 <div class="flash-sale-timer">Time Left: <span id="timer">00:00:00</span></div>
-                <div class="row">
+                <div class="row row1">
                     <!-- Sale items with images, titles, and prices -->
                     <div class="col-md-3 mb-4">
                         <div class="sale-item">
-                            <img src="sale1.jpg" alt="Sale Item 1">
-                            <div class="sale-item-title">Sale Item 1</div>
-                            <div class="sale-item-price">$20</div>
+                            <img src="https://static-01.daraz.pk/p/92758054f5acf17d35b03696efe587cd.jpg" alt="Sale Item 1">
+                            <div class="sale-item-title">Samsumg Galaxy S24</div>
+                            <div class="sale-item-price">Rs 399999</div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-4">
                         <div class="sale-item">
-                            <img src="sale2.jpg" alt="Sale Item 2">
-                            <div class="sale-item-title">Sale Item 2</div>
-                            <div class="sale-item-price">$30</div>
+                            <img src="https://static-01.daraz.pk/p/fa4f7a3f5b630c5d2d55a1a4e3ae7467.jpg" alt="Sale Item 2">
+                            <div class="sale-item-title">Mishbeeka Pack 1 to 4</div>
+                            <div class="sale-item-price">Rs 262</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="sale-item">
+                            <img src="https://static-01.daraz.pk/p/4e131d367a82445cf71fca9e60f5db10.jpg" alt="Sale Item 3">
+                            <div class="sale-item-title">Airpods Pro_Earbuds</div>
+                            <div class="sale-item-price">Rs 749</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="sale-item">
+                            <img src="https://static-01.daraz.pk/p/055087eadb81dbde5eaf95e4dbb7201d.jpg" alt="Sale Item 4">
+                            <div class="sale-item-title">Ear Wax Cleaning Kit 6 pcs</div>
+                            <div class="sale-item-price">Rs 119</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="sale-item">
+                            <img src="https://static-01.daraz.pk/p/309f08bb81f8c1fe3a6970104d86d120.jpg" alt="Sale Item 5">
+                            <div class="sale-item-title">Lapel Lavalier Collar Mic</div>
+                            <div class="sale-item-price">Rs 849</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="sale-item">
+                            <img src="https://static-01.daraz.pk/p/c2f9c7fce93d82b094cb5552892634ee.jpg" alt="Sale Item 6">
+                            <div class="sale-item-title">Professional Hair dryer</div>
+                            <div class="sale-item-price">Rs 1200</div>
                         </div>
                     </div>
                     <!-- Add more sale items as needed -->
@@ -146,30 +206,166 @@
         </div>
 
         <!-- Just For You -->
-        <div class="row mt-5">
-            <div class="col-12">
-                <h2>Just For You</h2>
-                <div class="row">
-                    <!-- Products recommended for the user -->
-                    <div class="col-md-3 mb-4">
-                        <div class="product">
-                            <img src="product1.jpg" alt="Product 1">
-                            <div class="product-title">Product 1</div>
-                            <div class="product-price">$25</div>
-                        </div>
+        <!-- Just For You -->
+<div class="row mt-5">
+    <div class="col-12">
+        <h2>Just For You</h2>
+        <div class="row">
+            <!-- Products recommended for the user -->
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/39228576279b7f80e2da0ac63422e4c9.jpg_200x200q75-product.jpg_.webp" alt="Product 1">
+                    <div class="product-title">Seven in ultra smart watches</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 2200</span>
+                        <del class="old-price">Rs 3000</del>
+                        <span class="discount">-20%</span>
                     </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="product">
-                            <img src="product2.jpg" alt="Product 2">
-                            <div class="product-title">Product 2</div>
-                            <div class="product-price">$35</div>
-                        </div>
-                    </div>
-                    <!-- Add more recommended products as needed -->
+                    <div class="product-rating">⭐⭐⭐⭐</div>
                 </div>
             </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/345cdee54afdf77e4a2526fa4f0e936a.jpg_200x200q75-product.jpg_.webp" alt="Product 2">
+                    <div class="product-title">Imported 1000ml steel bottle</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 2200</span>
+                        <del class="old-price">Rs 3000</del>
+                        <span class="discount">-20%</span>
+                    </div>
+                    <div class="product-rating">⭐⭐⭐⭐</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/6cc706e992a30a7dd72949d6bb704084.jpg_200x200q75-product.jpg_.webp" alt="Product 3">
+                    <div class="product-title">Portable handy recharger</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 700</span>
+                        <del class="old-price">Rs 1200</del>
+                        <span class="discount">-48%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐⭐<span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;</span></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/53f53ea4fc393da8a876c91e6b5cbb89.jpg_200x200q75-product.jpg_.webp" alt="Product 4">
+                    <div class="product-title">Plastic Shopping bag holder</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 100</span>
+                        <del class="old-price">Rs 200</del>
+                        <span class="discount">-18%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐⭐<span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;</span></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/ca11bd5662deb0234446c811ae9c4400.jpg_200x200q75-product.jpg_.webp" alt="Product 5">
+                    <div class="product-title">Bnb rice facewash</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 727</span>
+                        <del class="old-price">Rs 800</del>
+                        <span class="discount">-9%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐<span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;&#x2605;</span></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://static-01.daraz.pk/p/d6ba116fa7da53a71390c5cf8acaccda.jpg_200x200q75-product.jpg_.webp" alt="Product 6">
+                    <div class="product-title">Meclay London long and healthy shampoo</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 1004</span>
+                        <del class="old-price">Rs 1150</del>
+                        <span class="discount">-13%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐⭐<span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;</span></div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://pk-live-21.slatic.net/kf/S2dd0b3c9bad04a2a9e46744f98cf6e120.jpg" alt="Product 7">
+                    <div class="product-title">12 pcs ant toothpicks</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 329</span>
+                        <del class="old-price">Rs 550</del>
+                        <span class="discount">-20%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐⭐⭐
+                        <!-- <span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;</span>   -->
+                     </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="product">
+                    <img src="https://pk-live-21.slatic.net/kf/Sb9d43f2ad6b74792afdc0b251ba5971eZ.jpg" alt="Product 8">
+                    <div class="product-title">Universal mini cool mobile phone watches</div>
+                    <div class="product-price">
+                        <span class="updated-price">Rs 719</span>
+                        <del class="old-price">Rs 550</del>
+                        <span class="discount">-20%</span>
+                    </div>
+                    <div class="product-rating white-star">⭐⭐⭐⭐
+                        <!-- <span style="color:grey; font-size: 29px; position:relative; top:3px; font-weight: bolder;">&#x2605;</span>   -->
+                     </div>
+                </div>
+            </div>
+            
+            <!-- Add more recommended products as needed -->
         </div>
     </div>
+</div>
+
+    </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About Daraz -->
+                    <div class="col-md-3">
+                        <h5>About Daraz</h5>
+                        <p>Daraz is the leading online marketplace in Pakistan, offering a wide range of products including electronics, fashion, home appliances, and more.</p>
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="col-md-3">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Categories</a></li>
+                            <li><a href="#">Deals</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="col-md-3">
+                        <h5>Contact Information</h5>
+                        <p>123 Daraz Street, Karachi, Pakistan</p>
+                        <p>Email: info@daraz.pk</p>
+                        <p>Phone: +92-123-456789</p>
+                    </div>
+                    <!-- Social Media Links -->
+                    <div class="col-md-3">
+                        <h5>Connect with Us</h5>
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>&copy; 2024 Daraz. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
